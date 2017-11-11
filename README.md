@@ -11,7 +11,8 @@ local / computer / server
 Cooperation (Git must keep update version)
 
 server -> personal computer
-pull - work - commit - push (order)
+
+    pull - work - commit - push (order)
     (if I don't do it commit > it will be collision)
     
 How to solve collision?
