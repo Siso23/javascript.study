@@ -1,5 +1,5 @@
 
-// 1.New Object
+// 1.New Object //엉뚱한 값이 들어갈 경우 예상치 못한 값이 출력될 수 있기 때문에 사용하지 않는다.
 var obj = new Object();
 console.log(typeof obj);
 console.log(obj.constructor === Object);
@@ -101,7 +101,7 @@ console.log(p5); //아무것도 안만들어져요, 객체x
 console.log("======================================");
 //new를 강제화 하는 패턴
 var Person = function(name){
-    if(!(this instanceof Person)){
+    if(!(this instanceof Person)){ //instanceof > 생성자 확인 하기 용 ( 오른쪽에 있는 것이 왼쪽에 있는걸로 만들어 졌는가)
         return new Person(name);
     }
     this.name=name;
