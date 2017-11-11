@@ -8,7 +8,7 @@ local / computer / server
 
     -> commit -> push
     
-협업 (깃은 항상 최신버전)
+Cooperation (Git must keep update version)
 
 server -> personal computer
 pull - work - commit - push (order)
